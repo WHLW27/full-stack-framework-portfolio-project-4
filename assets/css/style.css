@@ -42,21 +42,17 @@
     background-color: #fff;
 }
 
+
 /*--------------------------------------------Font awesom icon styling*/
- 
+
 .big-icons {
     font-size: 100px;
 
 }
 
-.mid-icons {
+.mid-icons {}
 
-}
-
-.small-icons {
-
-}
-
+.small-icons {}
 
 
 /* ----------------------------------------Special paddings/margins/text */
@@ -101,7 +97,7 @@ h4 {
 }
 
 .vertical-center {
-    margin-top: 175px;
+    margin-top: 155px;
 
 }
 
@@ -111,12 +107,35 @@ h4 {
 }
 
 .shadow-text {
-    text-shadow: 3px 3px rgba(0, 0, 0, 0.25);;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.25);
+    ;
 }
 
 .usher-left {
     margin-right: 150px;
 }
+
+.usher-down {
+    margin-top: 15px;
+}
+
+.usher-up {
+    margin-top: -150px;
+}
+
+.close-top {
+    margin-top: -60px;
+}
+
+.font-railway {
+    font-family: "Raleway", sans-serif;
+
+}
+
+.font-playfair {
+    font-family: "Playfair Display", sans-serif;
+}
+
 
 /*--------------------------------------------Heading*/
 
@@ -131,27 +150,30 @@ header {
 .primary-header {
     font-family: "Raleway", sans-serif;
     font-weight: 100;
-    font-size: 46px;
-    margin-top: 50px;
-    color: #fff;
+    font-size: 66px;
+    margin-top: 15px;
+    color: rgba(0, 0, 0, 1.0);
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.25);
+    ;
     text-decoration: none;
 }
 
 .primary-header:hover {
-    color: #fff;
+    color: rgba(0, 0, 0, 1.0);
 }
 
-
-
-
-
 .title {
-    font-family: "Raleway", sans-serif;
+    font-family: "Playfair Display", sans-serif;
     font-weight: 200;
-    font-size: 28px;
-    margin-top: 20px;
-    margin-bottom: 90px;
-    color: #fff;
+    font-size: 23px;
+    color: rgba(0, 0, 0, 1.0);
+}
+
+.linebreak {
+    font-size: 30px;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.25);
+    ;
+    margin-bottom: 20px;
 }
 
 .list-inline-item:not(:last-child) {
@@ -191,24 +213,16 @@ header {
     font-size: 26px;
 }
 
-.menuitem span {
-    display: block;
-    width: 100%;
-    padding-top: 5px;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 300;
-    letter-spacing: 2px;
-}
-
 /*--------------------------------------------Containers*/
 
 .dual-row-upper {
     height: 500px;
 }
 
-.index-container {}
+.pad-bottom {
+    padding-bottom: 10px;
+}
+
 
 /*--------------------------------------------Buttons*/
 
@@ -216,4 +230,19 @@ header {
     width: 75%;
     height: 75%;
     margin-top: 20px;
+}
+
+
+/*--------------------------------------------Footer*/
+
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    font-size: x-small;
+
+}
+
+.foot-style {
+    margin-top: 30px;
+
 }
