@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700|Playfair+Display:100,200,300,400,500,600,700');
 
-/*--------------------------------------------Colors*/
+/*--------------------------------------------Colors and background images*/
 
 .bg-color-site-banner {
     background-color: #3498db;
@@ -20,15 +20,18 @@
     background-color: rgb(146, 5, 5);
 }
 
-
-
-
-.bg-color-three-reasons {
+.bg-color-index-text {
     background-color: #fff;
 }
 
-.bg-color-personal-info {
-    background-color: #f4f4f4;
+.bg-food-image-one {
+    background-image: url(../images/feta-salad.jpg);
+    background-position: right;
+
+}
+
+.fg-color-icon {
+    color: #f4f4f4;
 }
 
 .bg-color-work-history {
@@ -38,6 +41,23 @@
 .bg-color-contact {
     background-color: #fff;
 }
+
+/*--------------------------------------------Font awesom icon styling*/
+ 
+.big-icons {
+    font-size: 100px;
+
+}
+
+.mid-icons {
+
+}
+
+.small-icons {
+
+}
+
+
 
 /* ----------------------------------------Special paddings/margins/text */
 
@@ -78,6 +98,24 @@ h4 {
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 40px;
+}
+
+.vertical-center {
+    margin-top: 175px;
+
+}
+
+.anti-opacity-text {
+    color: rgba(0, 0, 0, 1.0);
+
+}
+
+.shadow-text {
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.25);;
+}
+
+.usher-left {
+    margin-right: 150px;
 }
 
 /*--------------------------------------------Heading*/
@@ -162,4 +200,20 @@ header {
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 2px;
+}
+
+/*--------------------------------------------Containers*/
+
+.dual-row-upper {
+    height: 500px;
+}
+
+.index-container {}
+
+/*--------------------------------------------Buttons*/
+
+.cta-large {
+    width: 75%;
+    height: 75%;
+    margin-top: 20px;
 }
