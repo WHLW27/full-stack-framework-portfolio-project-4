@@ -27,7 +27,6 @@
 .bg-food-image-one {
     background-image: url(../images/feta-salad.jpg);
     background-position: right;
-
 }
 
 .fg-color-icon {
@@ -42,6 +41,9 @@
     background-color: #fff;
 }
 
+.food-menu-image {
+    background-image: url(../images/menu-background.jpg);
+}
 
 /*--------------------------------------------Font awesom icon styling*/
 
@@ -136,6 +138,16 @@ h4 {
     font-family: "Playfair Display", sans-serif;
 }
 
+.menu-body-header {
+    margin-bottom: 15px;
+}
+
+.food-menu-text {
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 200;
+    color: rgb(253, 249, 249);
+}
+
 
 /*--------------------------------------------Heading*/
 
@@ -167,6 +179,12 @@ header {
     font-weight: 200;
     font-size: 23px;
     color: rgba(0, 0, 0, 1.0);
+}
+
+.big-title {
+    font-weight: 400;
+    font-size: 70px;
+    margin-top: -10px;
 }
 
 .linebreak {
@@ -223,6 +241,11 @@ header {
     padding-bottom: 10px;
 }
 
+.menu-header {
+    height: 400px;
+    background-image: url(../images/stpaulsbay.jpg);
+    background-position: center;
+}
 
 /*--------------------------------------------Buttons*/
 
