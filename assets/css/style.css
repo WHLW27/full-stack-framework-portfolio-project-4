@@ -42,7 +42,7 @@
 }
 
 .food-menu-image {
-    background-image: url(../images/menu-background.jpg);
+    background-color: #c0c0c0;
 }
 
 /*--------------------------------------------Font awesom icon styling*/
@@ -139,13 +139,29 @@ h4 {
 }
 
 .menu-body-header {
-    margin-bottom: 15px;
+    margin-bottom: 5px;
+    padding-top: 10px;
 }
 
 .food-menu-text {
     font-family: "Playfair Display", sans-serif;
     font-weight: 200;
     color: rgb(253, 249, 249);
+}
+
+.vr-overide {
+    color: rgb(33, 37, 41);
+    width: 1px;
+    padding: 0;
+    opacity: .5;
+}
+
+.dark-lines {
+    color: #525252;
+}
+
+.smaller-text {
+    font-size: xx-small;
 }
 
 
@@ -245,6 +261,15 @@ header {
     height: 400px;
     background-image: url(../images/stpaulsbay.jpg);
     background-position: center;
+}
+
+.empty-row {
+    height: 30px;
+    background-color: white;
+}
+
+.empty-col {
+    width: 10px;
 }
 
 /*--------------------------------------------Buttons*/
